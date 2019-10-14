@@ -1,12 +1,12 @@
 import React from 'react';
-import './Todo.css';
+import './Home.css';
 
-function Todo() {
+function Home() {
   return (
     <div className="App">
-      Todo
+      Home
     </div>
   );
 }
 
-export default Todo;
+export default Home;
