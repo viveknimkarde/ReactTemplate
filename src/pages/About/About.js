@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './About.css';
 
-function About() {
+function About(props) {
+
+  useEffect(() => {
+    console.log("About mounted", props.init);
+    return () => {
+      console.log("About unmounted", props.init);
+    }
+  });
+
   return (
     <div className="App">
-      About
+      About {props.init.toString()}
     </div>
   );
 }
