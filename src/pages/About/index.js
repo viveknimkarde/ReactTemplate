@@ -1,2 +1,2 @@
-import About from './About';
-export default About;
+import AboutContainer from './AboutContainer';
+export default AboutContainer;
